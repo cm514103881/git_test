@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="maven_expert:war">
+    <output-path>D:/GitTest/one/maven_expert/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>maven_expert</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="maven_expert-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="maven_expert:war exploded" />
+    </root>
+  </artifact>
+</component>
